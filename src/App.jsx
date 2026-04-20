@@ -773,16 +773,14 @@ const styles = {
     gap: 12
   },
   iconBox: {
-    width: 34,
-    height: 34,
-    borderRadius: 14,
+    width: 36,
+    height: 36,
+    borderRadius: 12,
     background: '#1f2937',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: '#ffffff',
-    fontSize: 12,
-    fontWeight: 700
+    fontSize: 18,   
   },
   statLabel: {
     color: '#ffffff',
