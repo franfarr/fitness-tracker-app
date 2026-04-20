@@ -309,7 +309,7 @@ function App() {
 
               <Panel title="This week at a glance">
                 <div style={styles.listStack}>
-                  {metricAverages.slice(0, 6).map((field) => (
+                  {metricAverages.map((field) => (
                     <div key={field.id} style={styles.statRow}>
                       <div style={styles.statLeft}>
                         <div style={styles.iconBox}>●</div>
