@@ -14,6 +14,8 @@ const getIcon = (id) => {
       return "😴";
     case "water":
       return "💧";
+       case "steps":
+      return "👣";
     default:
       return "•";
   }
