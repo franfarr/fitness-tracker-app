@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from "react";
 
 const STORAGE_KEY = 'fitness-tracker-app-v1'
 
