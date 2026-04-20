@@ -1,3 +1,23 @@
+const getIcon = (id) => {
+  switch (id) {
+    case "bw":
+      return "⚖️"; // bodyweight
+    case "calories":
+      return "🔥";
+    case "protein":
+      return "🥩";
+    case "carbs":
+      return "🍞";
+    case "fat":
+      return "🥑";
+    case "sleep":
+      return "😴";
+    case "water":
+      return "💧";
+    default:
+      return "•";
+  }
+};
 import React, { useEffect, useMemo, useState } from "react";
 
 const STORAGE_KEY = 'fitness-tracker-app-v1'
@@ -312,7 +332,9 @@ function App() {
                   {metricAverages.map((field) => (
                     <div key={field.id} style={styles.statRow}>
                       <div style={styles.statLeft}>
-                        <div style={styles.iconBox}>●</div>
+                        <div style={styles.iconBox}>
+  {getIcon(field.id)}
+</div>
                         <div>
                           <div style={styles.statLabel}>{field.label}</div>
                           <div style={styles.statSub}>7-day average</div>
