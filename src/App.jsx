@@ -260,8 +260,7 @@ function App() {
             <div style={styles.badge}>Mobile habit and fitness tracker</div>
             <h1 style={styles.title}>{state.title}</h1>
             <p style={styles.subtitle}>
-              Built for phone use first, with editable checklists, quick daily input, and simple progress comparisons.
-            </p>
+Track your habits, nutrition, and progress in one place.            </p>
           </div>
           <div style={styles.heroGrid}>
             <div style={styles.smallPanel}>
